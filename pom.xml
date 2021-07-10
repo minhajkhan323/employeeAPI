@@ -13,9 +13,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employeeapiproject</name>
 	<description>Spring REST API  project</description>
-<!-- 	<properties>
+	
+<!-- <properties>
 		<java.version>11</java.version>
-	</properties>  -->
+	</properties>  --> 
 	
 	<dependencies>
 		<dependency>
@@ -34,19 +35,19 @@
 			<optional>true</optional>
 		</dependency>
 		
-	<!-- 	<dependency>
+<!-- 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
-		</dependency>
-		 -->
+		</dependency> -->
+
+	<dependency>
+		<groupId>org.postgresql</groupId>
+		<artifactId>postgresql</artifactId>
+		<scope>runtime</scope>
+	</dependency>
 		 
-		 <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
-<dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-    <version>42.2.20</version>
-</dependency>
+
 		 
 		
 		<dependency>
